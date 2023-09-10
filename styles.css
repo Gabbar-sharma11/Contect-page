@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header,footer{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+}
+main{
+    display: flex;
+    text-align:center;
+    justify-content: center;
+    margin:10px 20px;
+}
+.contect{
+margin-top:20px ;
+    
+}
+input[type="text"],input[type="email"]
+,input[type="massage"],textarea{
+    width: 80%;
+    padding: 10px ;
+    border: 1px solid #766262;
+    border-radius: 7px;
+    margin: 15px;
+}
+textarea{
+    resize: vertical;
+}
+button[type="submit"]{
+    padding: 10px 20px;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: 0.2s;
+    margin: 10px;
+}
+button:hover{
+    background-color: blue;
+
+}
